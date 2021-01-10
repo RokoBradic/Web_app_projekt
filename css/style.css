@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+.nav ul {
+  list-style: none;
+  background: #333;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #f2f2f2;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  transition : 0.4s;
+}
+
+.nav a:hover {
+  background: #b50505;
+  transition: 0.4s;
+}
+
+.velika-slika {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+#text {
+  display: block;
+  color: #222222;
+  text-align: left;
+  font-size: larger;
+  padding: 10px;
+  height: 33%;
+  background: #f2f2f2;
+}
+
+.social {
+  margin: 5px;
+}
+
+.slika_red::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+.slika_indeks{
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.social{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social img{
+  width: 24px;
+}
+
+footer {
+  background-color: silver;
+  padding: 0.1em;
+  clear: both;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+  margin: 0.5em;
+}
+
+/*Contact part*/
+
+h1 {
+  margin: 2%;
+}
+
+
+form {
+  display: block;
+  margin: 15px;
+}
+form input {
+  width: 35%;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+form label {
+  margin: 3px;
+}
+
+form select {
+  width: 35%;
+  height: 30px;
+  background-color: silver;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  height: 200px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+form input[type=submit] {
+  width: 15%;
+  height: 40px;
+  background-color: #006400;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+form input[type=submit]:hover {
+  background-color: #009000;
+  }
+
+/*News*/
+.slike_za_news {
+  margin-left: 2%;
+}
+
+.slike_za_news img {
+  width: 15%;
+  float: left;
+  padding: 0.5em;
+  margin: 0 1em 0.5em 0.5em;
+}
+
+.para p{
+  margin-left: 5px;
+}
+
+.crta{
+  margin-left: 2%;
+  margin-right: 2%;
+  border-top: 1px dotted black;
+  clear: both;
+}
+
+.article_image {
+  border: solid black 1px;
+  width: 10%;
+  text-align: center;
+  float: left;
+}
+
+.article_image img {
+  width: 70%;
+  padding: 0.5em;
+  }
+
+.tekst_za_news{
+  margin: 2%;
+}
+
+.tekst_za_news h2 {
+  color: royalblue;
+}
+
+/*About us*/
+
+#video {
+  margin: 2%;
+  width: 50%;
+  float: left;
+}
+
+
+/*Gallery*/
+
+.gallery_img {
+  float: left;
+  width: 32.4%;
+  height: 300px;
+  padding: 2px;
+  margin: 5px;
+  margin-bottom: 29px;
+  text-align: center;
+  display: block;
+}
+
+.opis{
+  background-color: #99a9ba;
+  color: white;
+  font-style: italic;
+  padding: 1.5px;
+  padding-left: 0;
+  text-align: center;
+  width: 99.9%;
+}
+
+.galerija {
+  width: 100%;
+  height: 92%;
+}
+

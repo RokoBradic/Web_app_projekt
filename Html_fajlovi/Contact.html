@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Travel blog">
+  <meta name="keywords" content="Travel, Fly, Visit">
+  <meta name="author" content="Roko Bradić">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Contact</title>
+  <link rel="icon" href="../img/plane2.ico" type="image/x-ico">
+</head>
+
+<header>
+  <div class="nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="News.html">Travel news</a> </li>
+      <li><a href="About_us.html">About Us</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+    <img class="velika-slika" src="../img/panorama.jpg" alt="Panorama">
+  </div>
+</header>
+
+<body>
+<h1>Contact form</h1>
+<div id="i-frame">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128083.92971225514!2d10.645035462875999!3d59.893780642521726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2sOslo%2C%20Norway!5e0!3m2!1sen!2shr!4v1604427124216!5m2!1sen!2shr" width="75%" height="500" style="border:0; margin-left: 30px; margin-right: auto;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="forma" >
+  <form id="contact_form" name="contact_form" method="post">
+    <label for="frname">First name: *</label><br>
+    <input type="url" id="frname" name="frname" placeholder="First name" required><br>
+
+    <label for="laname">Last name: *</label><br>
+    <input type="text" id="laname" name="laname" placeholder="Last name" required><br>
+
+    <label for="email">Your e-mail: *</label><br>
+    <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+    <label for="country">Select your country: *</label><br>
+    <select id="country" name="country" required>
+      <option value="Croatia">Croatia</option>
+      <option value="Slovenia">Slovenia</option>
+      <option value="Italy">Italy</option>
+      <option value="Norway">Norway</option>
+      <option value="Finland">Finland</option>
+      <option value="Germany">Germany</option>
+    </select><br>
+    <label for="subject">Subject: </label><br>
+    <textarea id="subject" name="subject" placeholder="Write something"></textarea><br>
+    <div class="form-group">
+      <label for="upload_file">Send us your trip images</label><br>
+      <input type="file" class="form-control-file" id="upload_file">
+    </div>
+
+    <input type="submit" value="Submit" onclick="submitting()">
+  </form>
+  <p id="contact" style="margin: 15px;"></p>
+  <script>
+    function submitting() {
+           document.getElementById("contact").innerHTML = "Please fill in the form so that we could contact you about our new posts";
+    }
+  </script>
+</div>
+<footer>
+  <p>
+    "Copyright &copy; 2020 Roko Bradić. "
+    <a href="https://github.com/RokoBradic" target="_blank">
+      <img src="../img/github.png" title="Github" alt="Github">
+    </a>
+  </p>
+</footer>
+</body>
+</html>
